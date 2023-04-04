@@ -89,6 +89,7 @@ RUN \
  echo "**** install packages ****" && \
  apt-get install -y \
 	curl \
+  lftp \
 	patch \
 	tzdata && \
  echo "**** generate locale ****" && \
